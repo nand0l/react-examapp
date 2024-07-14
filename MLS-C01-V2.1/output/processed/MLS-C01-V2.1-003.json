@@ -1,0 +1,14 @@
+{
+    "ExamID": "MLS-C01-V2.1",
+    "QuestionID": "003",
+    "Answer": "D",
+    "CorrectAnswers": "D. Area Under the ROC Curve (AUC)",
+    "Explanation": "The Area Under the ROC Curve (AUC) is generally considered the best metric for comparing and evaluating machine learning classification models. AUC provides a single scalar value that represents the overall performance of a classification model across all possible classification thresholds. It is particularly useful because:\n\n1. It is threshold-independent, meaning it evaluates the model's performance across all possible decision thresholds.\n2. It is insensitive to class imbalance, making it suitable for datasets with uneven class distributions.\n3. It provides a comprehensive measure of the model's ability to distinguish between classes.\n\nWhile Recall (option A) and Misclassification rate (option B) are also valid metrics for classification models, they are typically threshold-dependent and don't provide as comprehensive a view of the model's performance as AUC.\n\nMean absolute percentage error (MAPE) (option C) is typically used for regression problems, not classification, making it inappropriate for this context.",
+    "PossibleAnswers": [
+        "A. Recall",
+        "B. Misclassification rate",
+        "C. Mean absolute percentage error (MAPE)",
+        "D. Area Under the ROC Curve (AUC)"
+    ],
+    "QuestionText": "Which of the following metrics should a Machine Learning Specialist generally use to compare/evaluate machine learning classification models against each other?"
+}

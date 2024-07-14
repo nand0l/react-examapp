@@ -1,0 +1,14 @@
+{
+    "ExamID": "MLS-C01-V2.1",
+    "QuestionID": "012",
+    "Answer": "A",
+    "CorrectAnswers": "A. K-means clustering",
+    "Explanation": "K-means clustering is the most appropriate model for this scenario. The question states that the dataset is unlabeled and the goal is to classify the data into different buckets. K-means clustering is an unsupervised learning algorithm that can group unlabeled data into clusters or 'buckets' based on similarity. This aligns perfectly with the requirements described in the question.\n\nOptions B, C, and D are not suitable for this specific task:\nB. Random Cut Forest (RCF) is typically used for anomaly detection, not for general clustering.\nC. XGBoost is a supervised learning algorithm that requires labeled data for training.\nD. BlazingText is primarily used for text classification and word embeddings, not for general data clustering.",
+    "PossibleAnswers": [
+        "A. K-means clustering",
+        "B. Random Cut Forest (RCF)",
+        "C. XGBoost",
+        "D. BlazingText"
+    ],
+    "QuestionText": "A Machine Learning Specialist was given a dataset consisting of unlabeled data The Specialist must create a model that can help the team classify the data into different buckets What model should be used to complete this work?"
+}

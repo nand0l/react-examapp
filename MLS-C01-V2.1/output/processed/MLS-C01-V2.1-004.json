@@ -1,0 +1,14 @@
+{
+    "ExamID": "MLS-C01-V2.1",
+    "QuestionID": "004",
+    "Answer": "C",
+    "CorrectAnswers": "C. Update the existing SageMaker endpoint to use a new configuration that is weighted to send 5% of the traffic to the new variant. Revert traffic to the last version by resetting the weights if the model does not perform as expected.",
+    "Explanation": "Option C is the SIMPLEST approach with the LEAST risk to deploy the model and roll it back if needed. This method allows for:\n\n1. Gradual deployment: By sending only 5% of the traffic to the new variant, it minimizes the potential negative impact on customer experience.\n2. Easy monitoring: With a small percentage of traffic, it's easier to monitor the new model's performance in real-world conditions.\n3. Simple rollback: If issues are detected, reverting to the previous version is straightforward by resetting the weights.\n4. Minimal changes: This approach doesn't require creating new endpoints or changing client configurations, making it the simplest to implement.\n\nOptions A and B involve creating new endpoints and redirecting traffic, which are more complex and riskier. Option D sends 100% of the traffic to the new variant immediately, which doesn't align with the requirement to limit risk to the customer experience.",
+    "PossibleAnswers": [
+        "A. Create a SageMaker endpoint and configuration for the new model version. Redirect production traffic to the new endpoint by updating the client configuration. Revert traffic to the last version if the model does not perform as expected.\n",
+        "B. Create a SageMaker endpoint and configuration for the new model version. Redirect production traffic to the new endpoint by using a load balancer Revert traffic to the last version if the model does not perform as expected.\n",
+        "C. Update the existing SageMaker endpoint to use a new configuration that is weighted to send 5% of the traffic to the new variant. Revert traffic to the last version by resetting the weights if the model does not perform as expected.\n",
+        "D. Update the existing SageMaker endpoint to use a new configuration that is weighted to send 100% of the traffic to the new variant Revert traffic to the last version by resetting the weights if the model does not perform as expected."
+    ],
+    "QuestionText": "A Machine Learning Specialist is using Amazon Sage Maker to host a model for a highly available customer-facing application.\nThe Specialist has trained a new version of the model, validated it with historical data, and now wants to deploy it to production To limit any risk of a negative customer experience, the Specialist wants to be able to monitor the model and roll it back, if needed\nWhat is the SIMPLEST approach with the LEAST risk to deploy the model and roll it back, if needed?"
+}

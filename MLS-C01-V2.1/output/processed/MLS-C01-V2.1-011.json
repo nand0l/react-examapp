@@ -1,0 +1,14 @@
+{
+    "ExamID": "MLS-C01-V2.1",
+    "QuestionID": "011",
+    "Answer": "C",
+    "CorrectAnswers": "C. Apply L1 or L2 regularization and dropouts to the training.",
+    "Explanation": "The question describes a clear case of overfitting, where the model performs well on training data (90% accuracy) but significantly worse on test data (70% accuracy). To address overfitting and improve the model's generalization, applying regularization techniques is the most effective approach. L1 and L2 regularization, along with dropout, are well-known methods to reduce overfitting in deep learning models. These techniques help the model to learn more robust features and prevent it from relying too heavily on specific neurons or connections, thus improving its performance on unseen data.",
+    "PossibleAnswers": [
+        "A. Increase the randomization of training data in the mini-batches used in training.",
+        "B. Allocate a higher proportion of the overall data to the training dataset",
+        "C. Apply L1 or L2 regularization and dropouts to the training.",
+        "D. Reduce the number of layers and units (or neurons) from the deep learning network."
+    ],
+    "QuestionText": "A web-based company wants to improve its conversion rate on its landing page Using a large historical dataset of customer visits, the company has repeatedly trained a multi-class deep learning network algorithm on Amazon SageMaker However there is an overfitting problem training data shows 90% accuracy in predictions, while test data shows 70% accuracy only\nThe company needs to boost the generalization of its model before deploying it into production to maximize conversions of visits to purchases\nWhich action is recommended to provide the HIGHEST accuracy model for the company's test and validation data?"
+}

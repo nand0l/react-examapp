@@ -1,0 +1,14 @@
+{
+    "ExamID": "MLS-C01-V2.1",
+    "QuestionID": "001",
+    "Answer": "C",
+    "CorrectAnswers": "C. Use Amazon EMR for feature engineering and Amazon SageMaker SDK for model development",
+    "Explanation": "Given the large scale of the dataset (billions of records that need to be joined), the most appropriate approach is to use Amazon EMR for feature engineering and Amazon SageMaker SDK for model development. Amazon EMR is designed to handle big data processing tasks efficiently, making it suitable for feature engineering on large datasets. Amazon SageMaker SDK provides tools for building, training, and deploying machine learning models at scale. This combination allows for effective handling of the large dataset and efficient model development.",
+    "PossibleAnswers": [
+        "A. Use an Amazon SageMaker notebook for both feature engineering and model development\n",
+        "B. Use an Amazon SageMaker notebook for feature engineering and Amazon ML for model development\n",
+        "C. Use Amazon EMR for feature engineering and Amazon SageMaker SDK for model development\n",
+        "D. Use Amazon ML for both feature engineering and model development."
+    ],
+    "QuestionText": "A Machine Learning Specialist is working with multiple data sources containing billions of records that need to be joined. What feature engineering and model development approach should the Specialist take with a dataset this large?"
+}

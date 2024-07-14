@@ -1,0 +1,14 @@
+{
+    "ExamID": "MLS-C01-V2.1",
+    "QuestionID": "005",
+    "Answer": "D",
+    "CorrectAnswers": "D. Linear regression",
+    "Explanation": "Linear regression is the best choice for this problem because:\n\n1. The problem involves predicting a numerical value (number of units to produce), which is a regression task.\n2. The company has labeled historical sales data, which is suitable for supervised learning methods like linear regression.\n3. The goal is to predict future production quantities based on past data, which aligns well with linear regression's ability to model relationships between variables and make predictions.\n\nThe other options are not as suitable:\nA. Logistic regression is used for classification problems, not for predicting numerical values.\nB. Random Cut Forest (RCF) is primarily used for anomaly detection, not for predicting future values.\nC. Principal component analysis (PCA) is a dimensionality reduction technique, not a predictive modeling method.",
+    "PossibleAnswers": [
+        "A. Logistic regression",
+        "B. Random Cut Forest (RCF)",
+        "C. Principal component analysis (PCA)",
+        "D. Linear regression"
+    ],
+    "QuestionText": "A manufacturing company has a large set of labeled historical sales data The manufacturer would like to predict how many units of a particular part should be produced each quarter Which machine learning approach should be used to solve this problem?"
+}

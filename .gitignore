@@ -1,0 +1,10 @@
+# Ignore a specific file
+/text.txt
+
+# Ignore a specific directory
+test/
+.venv/
+.vscode/
+
+# Ignore all files with a certain extension
+*.env

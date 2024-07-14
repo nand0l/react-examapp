@@ -1,0 +1,14 @@
+{
+    "ExamID": "MLS-C01-V2.1",
+    "QuestionID": "010",
+    "Answer": "C",
+    "CorrectAnswers": "C. Binary classification",
+    "Explanation": "The question describes a scenario where the model needs to predict whether a customer is likely to switch to a competitor or not in the next 30 days. This is a clear case of binary classification, where the output is one of two possible outcomes: likely to switch (yes) or not likely to switch (no). Binary classification is the most appropriate modeling technique for this situation as it deals with predicting one of two possible classes based on input features.",
+    "PossibleAnswers": [
+        "A. Time-series prediction",
+        "B. Anomaly detection",
+        "C. Binary classification",
+        "D. Regression"
+    ],
+    "QuestionText": "A Machine Learning Specialist is building a supervised model that will evaluate customers' satisfaction with their mobile phone service based on recent usage The model's output should infer whether or not a customer is likely to switch to a competitor in the next 30 days Which of the following modeling techniques should the Specialist use1?"
+}

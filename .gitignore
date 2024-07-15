@@ -3,8 +3,10 @@
 
 # Ignore a specific directory
 test/
+
 .venv/
 .vscode/
+__pycache__/
 
 # Ignore all files with a certain extension
 *.env

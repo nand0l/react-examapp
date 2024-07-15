@@ -1,5 +1,8 @@
 # AWS Exam Processing Automation
 
+The ExamID is set from line 1 of the inputfile, 
+The inputfile is set at line 7 of `exam_complete.py`
+
 This repository contains a suite of Python scripts designed to automate the processing of exam data for AWS certification exams. The automation covers several steps including reading and processing exam questions, storing and managing data in AWS DynamoDB, and generating audio files using AWS Polly.
 
 ## Key Features
@@ -58,8 +61,6 @@ This repository contains a suite of Python scripts designed to automate the proc
 
 1. Clone the repository:
 
-   
-
 ```sh
    git clone https://github.com/your-repo/aws-exam-processing-automation.git
    cd aws-exam-processing-automation
@@ -67,15 +68,11 @@ This repository contains a suite of Python scripts designed to automate the proc
 
 2. Install dependencies:
 
-   
-
 ```sh
    pip install boto3
    ```
 
 3. Configure AWS credentials:
-
-   
 
 ```sh
    aws configure
